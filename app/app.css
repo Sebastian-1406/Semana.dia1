@@ -8,12 +8,13 @@
 body{
 	background: black;
 	color: white;
-	display: flex;		
-	justify-content: center;
-	align-items: center;
 }
 .contenedor__flex{
 	margin: 90px 20px;
+	border-radius: 10px;	
+	overflow: hidden;
+
+
 }
 .contenido{	
 	display: flex;
@@ -82,16 +83,16 @@ body{
 @media screen and (min-width:800px){
 		
 	body{
-		height: 100vh
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center
 	}
 
 	.contenedor__flex{
 		display: flex;
 		max-width: 920px;
 		min-width: 800px;
-		border-radius: 10px;	
-		overflow: hidden;
-		
 	}
 	.contenido{
 		justify-content: space-between;
